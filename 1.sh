@@ -28,7 +28,7 @@ apt-get clean
 # 3. Create 'bs_thesis' (Sudo Admin)
 echo "Creating user: bs_thesis..."
 useradd -m -s /bin/bash bs_thesis
-echo "bs_thesis:DsE@LaB*!1_PC" | chpasswd
+echo "bs_thesis:BS_UG@123" | chpasswd
 usermod -aG sudo bs_thesis
 
 # 4. Create 'dse_uglab_admin' (Sudo Admin)
